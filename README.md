@@ -21,3 +21,14 @@ To do:
 document compared to embedded.
 5. Create indexes for querying the students
 6. Share the screenshot of the result in the readme file
+
+
+-------------------------------SCREENSHOTS---------------------------------------
+
+![image](https://github.com/user-attachments/assets/d673819f-07a9-4d0d-bdea-244c7a05af90)
+
+![2](https://github.com/user-attachments/assets/98e05dba-e21d-4727-94ec-3b63f222ad63)
+
+![1](https://github.com/user-attachments/assets/545af026-cf07-45f6-a312-b436a5248b7b)
+
+![4](https://github.com/user-attachments/assets/f849ecb1-2423-40ee-8344-d55a17ebc8cd)
