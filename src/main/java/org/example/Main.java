@@ -62,7 +62,19 @@ public class Main {
 
         Document studentDoc = studentsCol.find(Filters.eq("email", email)).first();
 
-        if (studentDoc == null) {
+        if (studentDoc != null) {
+            System.out.println("⚠️ Email already exists.");
+
+            System.out.print("Do you want to enroll this existing student in a new course? (yes/no): ");
+            String answer = scanner.nextLine().trim().toLowerCase();
+
+            if (!answer.equals("yes") && !answer.equals("y")) {
+                System.out.println("❌ Enrollment cancelled.");
+                return;  // Exit without doing anything else
+            } else {
+                System.out.println("ℹ️ Proceeding to enroll student with email: " + email);
+            }
+        } else {
             System.out.print("Name: ");
             String name = scanner.nextLine().trim();
             Document newStudent = new Document("name", name).append("email", email);
@@ -71,14 +83,12 @@ public class Main {
 
             // Re-fetch to get the generated _id
             studentDoc = studentsCol.find(Filters.eq("email", email)).first();
-        } else {
-            System.out.println("ℹ️ Student already exists. Using existing student.");
         }
 
         System.out.println("\n📘 Enter Course Details:");
-        System.out.print("Title: ");
+        System.out.print("Course Title: ");
         String title = scanner.nextLine().trim();
-        System.out.print("Code: ");
+        System.out.print("Course Code: ");
         String code = scanner.nextLine().trim();
 
         Document newCourse = new Document("title", title).append("code", code);
