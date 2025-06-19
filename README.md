@@ -24,3 +24,8 @@ document compared to embedded.
 
 
 ![Screenshot 2025-06-19 104932 (2)](https://github.com/user-attachments/assets/21ed1057-d417-4a6e-b7f6-2122af5f9a63)
+![Screenshot 2025-06-19 105015](https://github.com/user-attachments/assets/1e14ef6e-67bd-4479-aef8-ad826ae9d346)
+![Screenshot 2025-06-19 105357](https://github.com/user-attachments/assets/a95b017b-ccab-4638-adac-89179c2856fb)
+![Screenshot 2025-06-19 105409](https://github.com/user-attachments/assets/5d119a10-2504-445b-823b-61ee0a2c4b19)
+
+
